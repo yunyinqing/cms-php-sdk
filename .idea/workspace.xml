@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="429a0e1f-48b4-4cbe-b80c-7a53f0b78ef0" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunyinqing/datacenter/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/yunyinqing/datacenter/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunyinqing/datacenter/Banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/yunyinqing/datacenter/Banner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunyinqing/datacenter/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/yunyinqing/datacenter/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunyinqing/datacenter/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/yunyinqing/datacenter/Project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunyinqing/datacenter/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/yunyinqing/datacenter/Config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -31,18 +29,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="78">
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yunyinqing/datacenter/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="546">
-                <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+              <first_editor relative-caret-position="234">
+                <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
               </first_editor>
               <second_editor />
             </state>
@@ -52,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yunyinqing/datacenter/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="754">
               <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
             </state>
           </provider>
@@ -61,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yunyinqing/datacenter/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
+            <state relative-caret-position="754">
               <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
             </state>
           </provider>
@@ -70,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yunyinqing/datacenter/Project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
+            <state relative-caret-position="754">
               <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
             </state>
           </provider>
@@ -107,14 +114,14 @@
         <option value="$PROJECT_DIR$/yunyinqing/datacenter/Test.php" />
         <option value="$PROJECT_DIR$/yunyinqing/datacenter/Http.php" />
         <option value="$PROJECT_DIR$/yunyinqing/datacenter/Request.php" />
-        <option value="$PROJECT_DIR$/yunyinqing/datacenter/Config.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/demo.php" />
         <option value="$PROJECT_DIR$/yunyinqing/datacenter/Article.php" />
         <option value="$PROJECT_DIR$/yunyinqing/datacenter/Product.php" />
         <option value="$PROJECT_DIR$/yunyinqing/datacenter/Project.php" />
         <option value="$PROJECT_DIR$/yunyinqing/datacenter/Banner.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/yunyinqing/datacenter/Config.php" />
       </list>
     </option>
   </component>
@@ -135,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="25" />
     <option name="width" value="1400" />
@@ -151,6 +158,17 @@
           <expand>
             <path>
               <item name="datacenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datacenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datacenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="yunyinqing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datacenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="yunyinqing" type="462c0819:PsiDirectoryNode" />
               <item name="datacenter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -200,6 +218,7 @@
       <workItem from="1556155856050" duration="1225000" />
       <workItem from="1556162021905" duration="5492000" />
       <workItem from="1556174943327" duration="3597000" />
+      <workItem from="1556180711200" duration="905000" />
     </task>
     <task id="LOCAL-00001" summary="更新readme">
       <created>1556177752028</created>
@@ -208,17 +227,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556177752028</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改包名">
+      <created>1556180734757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556180734757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10982000" />
+    <option name="totallyTimeSpent" value="11887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -231,7 +257,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32832617" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30472103" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -244,7 +270,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新readme" />
+    <MESSAGE value="修改包名" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改包名" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vendor/cutephp/route/src/route.php" />
@@ -253,13 +280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunyinqing/datacenter/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -273,40 +293,23 @@
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="546">
-            <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yunyinqing/datacenter/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="754">
           <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yunyinqing/datacenter/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
+        <state relative-caret-position="754">
           <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yunyinqing/datacenter/Project.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
+        <state relative-caret-position="754">
           <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
         </state>
       </provider>
@@ -318,10 +321,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunyinqing/datacenter/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="234">
+            <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,7 @@ namespace yunyinqing\datacenter;
 
 class Config {
 
-    const APPID = 'yyq5cb03d231a541';
+    const APPID = '请将此处替换为您的APPID';
     const ServerUrl = 'https://api.yunyinqing.com';
 
     public function __construct()
