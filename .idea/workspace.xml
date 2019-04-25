@@ -4,7 +4,6 @@
     <list default="true" id="429a0e1f-48b4-4cbe-b80c-7a53f0b78ef0" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunyinqing/datacenter/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/yunyinqing/datacenter/Config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +47,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="234">
-                <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+              <first_editor relative-caret-position="26">
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -120,8 +119,8 @@
         <option value="$PROJECT_DIR$/yunyinqing/datacenter/Project.php" />
         <option value="$PROJECT_DIR$/yunyinqing/datacenter/Banner.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/yunyinqing/datacenter/Config.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -142,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="25" />
     <option name="width" value="1400" />
@@ -153,28 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="datacenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datacenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datacenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datacenter" type="462c0819:PsiDirectoryNode" />
-              <item name="yunyinqing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datacenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datacenter" type="462c0819:PsiDirectoryNode" />
-              <item name="yunyinqing" type="462c0819:PsiDirectoryNode" />
-              <item name="datacenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -218,7 +196,7 @@
       <workItem from="1556155856050" duration="1225000" />
       <workItem from="1556162021905" duration="5492000" />
       <workItem from="1556174943327" duration="3597000" />
-      <workItem from="1556180711200" duration="905000" />
+      <workItem from="1556180711200" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="更新readme">
       <created>1556177752028</created>
@@ -234,11 +212,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556180734757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新配置方法。">
+      <created>1556181631911</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556181631911</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新配置方法。">
+      <created>1556182508238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556182508238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11887000" />
+    <option name="totallyTimeSpent" value="12861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -271,7 +263,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新readme" />
     <MESSAGE value="修改包名" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改包名" />
+    <MESSAGE value="更新配置方法。" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新配置方法。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vendor/cutephp/route/src/route.php" />
@@ -345,8 +338,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          <first_editor relative-caret-position="26">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
