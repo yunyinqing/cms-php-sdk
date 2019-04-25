@@ -1,6 +1,6 @@
 {
     "name": "yunyinqing/datacenter",
-    "description": "Render your project with PHP",
+    "description": "快速获取云引擎中的数据。",
     "license": "MIT",
     "authors": [
         {
