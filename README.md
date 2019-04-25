@@ -1,21 +1,26 @@
-##云引擎数据中心SDK
-
-使用composer安装后，可直接在需要使用的地方引用。
-
+## 云引擎数据中心SDK
 ### 配置
-1.安装后请将vendor/yunyinqing/datacenter/Config.php中的APPID改为您的项目。
+1.使用composer安装,在您的项目根目录下输入下列指令回车即可
+    
+    composer require yunyinqing/datacenter
+
+
+
+2.安装后请将 “项目目录/vendor/yunyinqing/datacenter/Config.php”中的APPID改为您的项目。
     
     const APPID = 'yyxxxxxxxx';//yyq开头的appid
     
     const ServerUrl = 'https://api.yunyinqing.com';//云引擎的api地址
 
-2.在使用的地方文件顶部加上如下代码
+3.在使用的文件顶部加上如下代码
 
-
-    require_once './vendor/autoload.php'; //如果您没有引用了自动加载则按需要加上这段代码
+    <?php
     
-    use yunyinqing\datacenter\Article; //引用文章
+        require_once './vendor/autoload.php'; //如果您没有引用了自动加载则按需要加上这段代码
     
+        use yunyinqing\datacenter\Article; //引用文章
+    
+##文档
 ### 命名空间规则：
 
 use yunyinqing\datacenter\命名空间名;
