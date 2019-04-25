@@ -1,0 +1,20 @@
+{
+    "name": "yunyinqing/phprender",
+    "description": "Render your project with PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "surperorange",
+            "email": "mail@gongcishi.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload":{
+        "psr-4":{
+            "yunyinqing\\datacenter\\":"yunyinqing/datacenter/"
+        }
+    }
+}
