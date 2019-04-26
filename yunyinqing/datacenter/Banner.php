@@ -12,14 +12,14 @@ class Banner {
     {
         $param['appid'] = Config::APPID;
         $result = (new Request)->request_post(Config::ServerUrl.'/client/Banner/getBannerList',$param);
-        return $result ? json_decode($result) : false;
+        return $result ? json_decode($result,1) : false;
     }
     public static function getBanner($id = 0)
     {
         $param['id'] = $id;
         $param['appid'] = Config::APPID;
         $result = (new Request)->request_post(Config::ServerUrl.'/client/Banner/getBanner',$param);
-        return $result ? json_decode($result) : false;
+        return $result ? json_decode($result,1) : false;
     }
 }
 
