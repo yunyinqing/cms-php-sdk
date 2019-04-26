@@ -12,7 +12,7 @@ class Article {
     {
         $param['id'] = $cateid;
         $param['appid'] = Config::APPID;
-        $result = (new Request)->request_post(Config::ServerUrl.'/client/article/getCateList',$param);
+        $result = (new Request)->request_post(Config::ServerUrl.'/client/article/getArticleCateList',$param);
         return $result ? json_decode($result) : false;
     }
     public static function getArticleList($cateid = 0)

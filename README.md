@@ -17,9 +17,22 @@
 
     <?php
     
-        require_once './vendor/autoload.php'; //如果您没有引用了自动加载则按需要加上这段代码
+        require_once './vendor/autoload.php'; //如果您的项目没有引用了自动加载则需要加上这段代码
     
-        use yunyinqing\datacenter\Article; //引用文章
+        use yunyinqing\datacenter\Article; //如果您需要获取文章则添加这句，获取其他内容请看下方文档替换成其他命名空间即可
+   
+4.示例：获取文章内容
+
+    <?php
+    
+        require_once './vendor/autoload.php';
+    
+        use yunyinqing\datacenter\Article; 
+        
+        $articleCateList = Article::getArticleCate(1);//这句话的意思是获取文章分类1下的分类
+        
+        $articleList = Article::getArticleList(1);//这句话的意思是获取文章分类1下的文章列表
+   
     
 ## 文档
 
@@ -42,14 +55,16 @@ $r = Article::getArticleCate();
 
 方法一览表
 
-|模块方法|方法名|
-|---|---|
-|获取文章分类|getArticleCate|
-|获取文章列表|getArticleList|
-|获取文章内容|getArticle|
-|获取产品分类|getProductCate|
-|获取产品列表|getProductList|
-|获取产品分类|getProduct|
-|获取对象分类|getObjectCate|
-|获取对象列表|getObjectList|
-|获取对象|getObject|
+|模块方法|方法名|参数说明：参数|
+|---|---|---|
+|获取Banner列表|getBannerList()|无|
+|获取Banner内容|getBanner()|Bannerid:id|
+|获取文章分类|getArticleCateList()|分类id：id|
+|获取文章列表|getArticleList()|分类id：id|
+|获取文章内容|getArticle()|文章id：id|
+|获取产品分类|getProductCateList()|分类id：id|
+|获取产品列表|getProductList()|分类id：id|
+|获取产品分类|getProduct()|产品id：id|
+|获取对象分类|getObjectCateList()|分类id：id|
+|获取对象列表|getObjectList()|分类id：id|
+|获取对象|getObject()|对象id：id|
