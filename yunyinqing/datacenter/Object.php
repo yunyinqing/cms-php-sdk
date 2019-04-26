@@ -1,32 +1,32 @@
 <?php
 namespace yunyinqing\datacenter;
 
-class Project {
+class Object {
 
     public function __construct()
     {
 
     }
 
-    public static function getProjectCate($cateid = 0)
+    public static function getObjectCate($cateid = 0)
     {
         $param['id'] = $cateid;
         $param['appid'] = Config::APPID;
-        $result = (new Request)->request_post(Config::ServerUrl.'/client/Project/getCateList',$param);
+        $result = (new Request)->request_post(Config::ServerUrl.'/client/Object/getCateList',$param);
         return $result ? json_decode($result) : false;
     }
-    public static function getProjectList($cateid = 0)
+    public static function getObjectList($cateid = 0)
     {
         $param['id'] = $cateid;
         $param['appid'] = Config::APPID;
-        $result = (new Request)->request_post(Config::ServerUrl.'/client/Project/getArticleList',$param);
+        $result = (new Request)->request_post(Config::ServerUrl.'/client/Object/getArticleList',$param);
         return $result ? json_decode($result) : false;
     }
-    public static function getProject($id = 0)
+    public static function getObject($id = 0)
     {
         $param['id'] = $id;
         $param['appid'] = Config::APPID;
-        $result = (new Request)->request_post(Config::ServerUrl.'/client/Project/getArticle',$param);
+        $result = (new Request)->request_post(Config::ServerUrl.'/client/Object/getArticle',$param);
         return $result ? json_decode($result) : false;
     }
 }
