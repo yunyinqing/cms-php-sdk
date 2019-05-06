@@ -22,9 +22,9 @@ class Object {
         $result = (new Request)->request_post(Config::ServerUrl.'/client/Object/getObjectList',$param);
         return $result ? json_decode($result,1) : false;
     }
-    public static function getObject($id = 0)
+    public static function getObject($title = '')
     {
-        $param['id'] = $id;
+        $param['title'] = $title;
         $param['appid'] = Config::APPID;
         $result = (new Request)->request_post(Config::ServerUrl.'/client/Object/getObject',$param);
         return $result ? json_decode($result,1) : false;
