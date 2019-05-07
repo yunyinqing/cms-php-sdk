@@ -1,7 +1,7 @@
 <?php
 namespace yunyinqing\datacenter;
 
-class Request {
+class RequestModule {
 
     public function __construct()
     {
