@@ -15,7 +15,7 @@ class RequestModule {
      */
     function request_post($url = '', $param = '') {
 
-        if (empty($url) || empty($param)) {
+        if (empty($url) || empty($param = [])) {
             return false;
         }
 
