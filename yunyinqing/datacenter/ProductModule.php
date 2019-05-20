@@ -8,27 +8,23 @@ class ProductModule {
 
     }
 
-    public static function getProductCate($cateid = 0, $page = 1, $limit = 10)
+    public static function getProductCate($param)
     {
-        $param['id'] = $cateid;
         $param['appid'] = Config::APPID;
-        $param['page'] = $page;
-        $param['limit'] = $limit;
         $result = (new RequestModule)->request_post(Config::ServerUrl.'/client/Product/getProductCateList',$param);
         return $result ? json_decode($result,1) : false;
     }
-    public static function getProductList($cateid = 0, $page = 1, $limit = 10)
+    public static function getProductList($param)
     {
-        $param['id'] = $cateid;
         $param['appid'] = Config::APPID;
-        $param['page'] = $page;
-        $param['limit'] = $limit;
+        if(!empty($title_eng)){
+            $param['title_eng'] = $title_eng;
+        }
         $result = (new RequestModule)->request_post(Config::ServerUrl.'/client/Product/getProductList',$param);
         return $result ? json_decode($result,1) : false;
     }
-    public static function getProduct($id = 0)
+    public static function getProduct($param)
     {
-        $param['id'] = $id;
         $param['appid'] = Config::APPID;
         $result = (new RequestModule)->request_post(Config::ServerUrl.'/client/Product/getProduct',$param);
         return $result ? json_decode($result,1) : false;
