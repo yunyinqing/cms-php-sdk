@@ -17,9 +17,6 @@ class ProductModule {
     public static function getProductList($param = [])
     {
         $param['appid'] = Config::APPID;
-        if(!empty($title_eng)){
-            $param['title_eng'] = $title_eng;
-        }
         $result = (new RequestModule)->request_post(Config::ServerUrl.'/client/Product/getProductList',$param);
         return $result ? json_decode($result,1) : false;
     }
